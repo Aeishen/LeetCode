@@ -8,7 +8,7 @@ func oddEvenList(head *ListNode) *ListNode {
 		return head
 	}
 
-	f,s := head,head.Next
+	f, s := head, head.Next
 
 	for cur := s; cur != nil && cur.Next != nil; {
 		f.Next = f.Next.Next
