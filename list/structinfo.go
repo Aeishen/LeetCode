@@ -12,3 +12,11 @@ type Node struct {
 	Next   *Node
 	Random *Node
 }
+
+// 多级双向链表
+type Node1 struct {
+	Val   int
+	Prev  *Node1
+	Next  *Node1
+	Child *Node1
+}
